@@ -6,5 +6,9 @@
   },
   "header": {
     "settings": "TEST"
+  },
+  "language":{
+    "en":"English",
+    "fr":"France"
   }
 }
