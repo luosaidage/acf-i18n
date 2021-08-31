@@ -2,10 +2,7 @@
   "header": {
     "theme": "Theme",
     "login": "Login",
-    "logout": "Logout",
-    "local": "LOCAL",
-    "dev": "DEV",
-    "stable": "STABLE"
+    "logout": "Logout"
   },
   "configuration": {
     "title": "Configuration",
@@ -143,7 +140,10 @@
     "download": "Download",
     "sec": "sec",
     "no": "No",
-    "yes": "Yes"
+    "yes": "Yes",
+    "local": "LOCAL",
+    "dev": "DEV",
+    "stable": "STABLE"
   },
   "settings": {
     "checkIFrames": "Check IFrames",
