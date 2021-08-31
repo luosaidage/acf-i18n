@@ -1,13 +1,119 @@
+
 {
-  "title": "Welcome to react using react-i18next",
-  "header": {
-    "settings": "TEST"
-  },
-  "language":{
-    "en":"English",
-    "fr":"France",
-    "Kr":"Korean",
-    "ca":"Canada",
-    "hi":"Hindi"
-  }
+"header":{
+"theme":"Theme",
+"login":"Login",
+"logout":"Logout",
+"local":"LOCAL",
+"dev":"DEV",
+"stable":"STABLE",
+},
+"configuration":{
+"title":"Configuration",
+"add":"Add Configuration",
+"exportAll":"Export All",
+"importAll":"Import All",
+
+"remove":"Remove Configuration",
+"enable":"Enable",
+"export":"Export",
+"import":"Import",
+"url":"URL",
+"name":"Name",
+"initWait":"Init Wait",
+"startTime ":"Start Time",
+"startTimeHint":"Try Schedule URL our new browser extension.<br/>
+it's used to schedule webpage / URL at particular day and time",
+"settings":{
+"title":"Config Settings",
+"start":{
+"title":"Start",
+"auto":"Auto",
+"autoHint":"<span class=\"text-primary\">Auto</span> (default) once browser is refresh or new page is loaded extension auto loads with it",
+"manual":"Manual",
+"manualHint":"<span class=\"text-primary\">Manual</span> once browser is loaded, user can manually invoke extension using hotkey"},
+"extensionLoad":{
+"title":"Extension Load",
+"window":"Window",
+"windowHint":"<span class=\"text-primary\">Window</span>(default) browser loads extension once all its content is loaded",
+"document":"Document",
+"documentHint":"<span class=\"text-primary\">Document</span>browser loads extension before scripts and images are loaded (faster)(unsafe)"
+}
+},
+"reorder":{
+"title":"Reorder Configuration",
+"hint":"Please save all configurations before reordering"
+}
+},
+"batch":{
+"title":"Batch",
+"repeat":"Repeat",
+"repeat-interval":"R-Interval",
+"refresh":"Refresh"
+},
+"action":{
+"title":"Action",
+"add":"Add Action",
+"remove":"Remove Action",
+"initWait":"Init Wait",
+"name":"Name",
+"elementFinder":"Element Finder",
+"value":"Value",
+"repeat":"Repeat",
+"repeat-interval":"R-Interval",
+},
+
+"addon":{
+"title":"Addon",
+"hint":"Add condition will be checked before executing Action",
+"elementFinder":"Element Finder",
+"condition":"Condition",
+"value":"Value",
+"valueExtractor":"Value Extractor",
+"recheck":{
+"title":"Recheck",
+"interval":"Recheck Interval",
+"stop":"Stop",
+"skip":"Skip Not Found",
+"refresh":"Refresh"
+}
+},
+"common":{
+"settings":"Settings",
+"error":"Error",
+"save":"Save",
+"clear":"Clear",
+"close":"Close",
+"sec":"sec"
+},
+"settings":{
+"checkIFrames":"Check IFrames",
+"checkIFramesHint":"This checks element within iFrames",
+"notification":{
+"title":"Show Notification",
+"error":"on Error occurred",
+"action":"on Action occurred",
+"batch":"on Batch occurred",
+"config":"on Config occurred",
+"sound":"Notification Sound",
+"discord":{
+"title":"Notification on Discord",
+"hint":"You need to login and join our Discord server in order to receive notification on Discord",
+"release":"Its currently under development and feature may move to action specific notification in upcoming release"}
+},
+"retry":{
+"title":"Retry",
+"interval":"Retry Interval",
+"stop":"Stop",
+"skip":"Skip Not Found",
+"refresh":"Refresh"
+}
+},
+"language":{
+"en":"English",
+"fr":"France",
+"Kr":"Korean",
+"ca":"Canada",
+"hi":"Hindi"
+}
 }
