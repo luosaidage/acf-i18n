@@ -5,7 +5,8 @@
       "dark": "Switch to the dark theme"
     },
     "login": "Login",
-    "logout": "Logout"
+    "logout": "Logout",
+    "settings": "Global Settings"
   },
   "footer": {
     "resources": "Resources",
@@ -26,12 +27,18 @@
   "toast": {
     "configuration": {
       "add": {
-        "header": "Configuration",
+        "header": "Add Configuration",
         "body": "{name} added successfully"
       },
       "remove": {
-        "header": "Configuration",
+        "header": "Remove Configuration",
         "body": "{name} removed successfully"
+      },
+      "exportAll": {
+        "header": "Export All"
+      },
+      "importAll": {
+        "header": "Import All"
       }
     },
     "action": {
@@ -56,6 +63,33 @@
     }
   },
   "modal": {
+    "settings": {
+      "title": "Global Settings",
+      "checkIFrames": "Check IFrames",
+      "checkIFramesHint": "This checks element within iFrames",
+      "notification": {
+        "title": "Show Notification",
+        "error": "on Error occurred",
+        "action": "on Action completion",
+        "batch": "on Batch completion",
+        "config": "on Config completion",
+        "sound": "Notification Sound",
+        "discord": {
+          "title": "Notification on Discord",
+          "hint": "You need to login and join our {discordServer} in order to receive notification on Discord",
+          "info": "Its currently under development and feature may move to action specific notification in upcoming release"
+        }
+      },
+      "retry": {
+        "title": "Retry",
+        "interval": "Retry Interval",
+        "stop": "Stop",
+        "skip": "Skip Not Found",
+        "refresh": "Refresh",
+        "hint": "Below are action which can be performed if xpath is not found by extension after retry"
+      },
+      "saveMessage": "Settings saved successfully!"
+    },
     "configSettings": {
       "title": "Config Settings",
       "start": {
@@ -104,12 +138,14 @@
   "configuration": {
     "title": "Configuration",
     "add": "Add Configuration",
-    "exportAll": "Export All",
-    "importAll": "Import All",
+    "exportAll": "Export All Configuration",
+    "importAll": "Import All Configuration",
     "remove": "Remove Configuration",
+    "reorder": "Reorder Configuration",
+    "settings": "Config Settings",
     "enable": "Enable",
-    "export": "Export",
-    "import": "Import",
+    "export": "Export Configuration",
+    "import": "Import Configuration",
     "url": "URL",
     "name": "Name",
     "initWait": "Init Wait",
@@ -127,6 +163,7 @@
     "url": "URL is required",
     "intiWait": "Only valid numbers are allowed",
     "startTime": "Start time should match HH:mm:ss:fff (12:12:12:000) format",
+    "json": "Selected Json is not valid",
     "hotKey": "Single letter without {key} is not valid",
     "valueExtractor": "Not a valid regex",
     "value": "Value is required",
@@ -136,13 +173,15 @@
   "action": {
     "title": "Action",
     "add": "Add Action",
+    "addon": "Addon",
     "remove": "Remove Action",
+    "settings": "Action Settings",
     "initWait": "Init Wait",
     "name": "Name",
     "elementFinder": "Element Finder",
     "value": "Value",
     "repeat": "Repeat",
-    "repeat-interval": "R-Interval"
+    "repeatInterval": "R-Interval"
   },
   "popover": {
     "valueExtractor": {
@@ -186,31 +225,6 @@
     "local": "LOCAL",
     "dev": "DEV",
     "stable": "STABLE"
-  },
-  "settings": {
-    "checkIFrames": "Check IFrames",
-    "checkIFramesHint": "This checks element within iFrames",
-    "notification": {
-      "title": "Show Notification",
-      "error": "on Error occurred",
-      "action": "on Action occurred",
-      "batch": "on Batch occurred",
-      "config": "on Config occurred",
-      "sound": "Notification Sound",
-      "discord": {
-        "title": "Notification on Discord",
-        "hint": "You need to login and join our Discord server in order to receive notification on Discord",
-        "release": "Its currently under development and feature may move to action specific notification in upcoming release"
-      }
-    },
-    "retry": {
-      "title": "Retry",
-      "interval": "Retry Interval",
-      "stop": "Stop",
-      "skip": "Skip Not Found",
-      "refresh": "Refresh"
-    },
-    "saveMessage": "Settings saved successfully!"
   },
   "language": {
     "en": "English",
