@@ -117,10 +117,8 @@
   },
   "batch": {
     "title": "Batch",
-    "repeat": {
-      "title": "Repeat",
-      "interval": "R-Interval"
-    },
+    "repeat": "Repeat",
+    "repeatInterval": "R-Interval",
     "refresh": "Refresh"
   },
   "error": {
