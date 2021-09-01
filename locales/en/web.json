@@ -149,7 +149,7 @@
     "url": "URL",
     "name": "Name",
     "initWait": "Init Wait",
-    "startTime ": "Start Time"
+    "startTime": "Start Time"
   },
   "batch": {
     "title": "Batch",
