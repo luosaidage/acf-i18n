@@ -187,9 +187,8 @@
     "valueExtractor": {
       "title": "Examples"
     },
-    "startManually": {
-      "title": "Start manually using hotkey",
-      "content": "When enabled you need to make use of hot key {{key}} to run extension manually. <br />Hotkey can be changed under settings."
+    "startTime": {
+      "content": "Try <1>{{scheduleURL}}</1> our new browser extension. <br /> it's used to schedule webpage / URL at particular day and time"
     },
     "hotkey": {
       "title": "Hotkey",
