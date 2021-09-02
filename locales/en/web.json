@@ -76,7 +76,7 @@
         "sound": "Notification Sound",
         "discord": {
           "title": "Notification on Discord",
-          "hint": "You need to login and join our {{server}} in order to receive notification on Discord",
+          "hint": "You need to login and join our <1>Discord server</1> in order to receive notification on Discord",
           "info": "Its currently under development and feature may move to action specific notification in upcoming release"
         }
       },
