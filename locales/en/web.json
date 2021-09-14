@@ -27,11 +27,11 @@
   "toast": {
     "configuration": {
       "add": {
-        "header": "Add Configuration",
+        "header": "Configuration",
         "body": "{{name}} added successfully"
       },
       "remove": {
-        "header": "Remove Configuration",
+        "header": "Configuration",
         "body": "{{name}} removed successfully"
       },
       "exportAll": {
@@ -39,6 +39,13 @@
       },
       "importAll": {
         "header": "Import All"
+      },
+      "importError": {
+        "header": "Import Error"
+      },
+      "importSuccess": {
+        "header": "Configuration",
+        "body": "{{name}} imported successfully"
       }
     },
     "action": {
@@ -77,7 +84,7 @@
         "discord": {
           "title": "Notification on Discord",
           "hint": "You need to login and join our <1>Discord server</1> in order to receive notification on Discord",
-          "info": "Its currently under development and feature may move to action specific notification in upcoming release"
+          "info": "Its currently under development and feature may move to <b>action</b> specific notification in upcoming release"
         }
       },
       "retry": {
@@ -92,20 +99,17 @@
     },
     "configSettings": {
       "title": "Config Settings",
-      "start": {
-        "title": "Start",
-        "auto": "Auto",
-        "autoHint": "Auto (default) once browser is refresh or new page is loaded extension auto loads with it",
-        "manual": "Manual",
-        "manualHint": "Manual once browser is loaded, user can manually invoke extension using hotkey"
-      },
-      "extensionLoad": {
-        "title": "Extension Load",
-        "window": "Window",
-        "windowHint": "Window (default) browser loads extension once all its content is loaded",
-        "document": "Document",
-        "documentHint": "Document browser loads extension before scripts and images are loaded (faster)(unsafe)"
-      }
+      "start": "Start",
+      "auto": "Auto",
+      "autoHint": "<b>Auto</b> (default) once browser is refresh or new page is loaded extension auto loads with it",
+      "manual": "Manual",
+      "manualHint": "<b>Manual</b> once browser is loaded, user can manually invoke extension using hotkey",
+      "extensionLoad": "Extension Load",
+      "window": "Window",
+      "windowHint": "<b>Window</b> (default) browser loads extension once all its content is loaded",
+      "document": "Document",
+      "hotkey": "Hotkey",
+      "documentHint": "<b>Document</b> browser loads extension before scripts and images are loaded (faster)(unsafe)"
     },
     "reorder": {
       "title": "Reorder Configuration",
@@ -133,6 +137,22 @@
     "ads": {
       "title": "Please allow ads on our site",
       "subTitle": "Which of these extensions do you have?"
+    },
+    "addon": {
+      "title": "Addon",
+      "info": "Add condition will be checked before executing Action",
+      "elementFinder": "Element Finder",
+      "condition": "Condition",
+      "value": "Value",
+      "valueExtractor": "Value Extractor",
+      "recheck": {
+        "title": "Recheck",
+        "hint": "* Below are action which can be performed if recheck is not matched by extension after recheck",
+        "interval": "Recheck Interval",
+        "stop": "Stop",
+        "skip": "Skip Not Found",
+        "refresh": "Refresh"
+      }
     }
   },
   "configuration": {
@@ -192,23 +212,8 @@
     },
     "hotkey": {
       "title": "Hotkey",
-      "content": "Press hotkey on keyboard to auto type in field"
-    }
-  },
-  "addon": {
-    "title": "Addon",
-    "hint": "Add condition will be checked before executing Action",
-    "elementFinder": "Element Finder",
-    "condition": "Condition",
-    "value": "Value",
-    "valueExtractor": "Value Extractor",
-    "recheck": {
-      "title": "Recheck",
-      "hint": "* Below are action which can be performed if recheck is not matched by extension after recheck",
-      "interval": "Recheck Interval",
-      "stop": "Stop",
-      "skip": "Skip Not Found",
-      "refresh": "Refresh"
+      "content": "Press hotkey on keyboard to auto type in field",
+      "hint": "Single letter without <kbd>Ctrl</kbd>, <kbd>Alt</kbd> or <kbd>Shift</kbd> is not valid"
     }
   },
   "common": {
@@ -223,12 +228,14 @@
     "yes": "Yes",
     "local": "LOCAL",
     "dev": "DEV",
-    "stable": "STABLE"
+    "stable": "STABLE",
+    "examples": "Examples",
+    "translate": ""
   },
   "language": {
     "en": "English",
-    "fr": "France",
-    "Kr": "Korean",
+    "fr": "French",
+    "kr": "Korean",
     "ca": "Canada",
     "hi": "Hindi"
   }
