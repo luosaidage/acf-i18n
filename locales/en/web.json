@@ -111,7 +111,8 @@
       "windowHint": "<b>Window</b> (default) browser loads extension once all its content is loaded",
       "document": "Document",
       "hotkey": "Hotkey",
-      "documentHint": "<b>Document</b> browser loads extension before scripts and images are loaded (faster)(unsafe)"
+      "documentHint": "<b>Document</b> browser loads extension before scripts and images are loaded (faster)(unsafe)",
+      "saveMessage": "Config Setting saved successfully!"
     },
     "reorder": {
       "title": "Reorder Configuration",
@@ -134,7 +135,8 @@
         "stop": "Stop",
         "skip": "Skip Not Found",
         "refresh": "Refresh"
-      }
+      },
+      "saveMessage": "Action Setting saved successfully!"
     },
     "ads": {
       "title": "Please allow ads on our site",
@@ -154,7 +156,8 @@
         "stop": "Stop",
         "skip": "Skip Not Found",
         "refresh": "Refresh"
-      }
+      },
+      "saveMessage": "Addon saved successfully!"
     }
   },
   "configuration": {
@@ -171,13 +174,15 @@
     "url": "URL",
     "name": "Name",
     "initWait": "Init Wait",
-    "startTime": "Start Time"
+    "startTime": "Start Time",
+    "saveMessage": "Configuration saved successfully!"
   },
   "batch": {
     "title": "Batch",
     "repeat": "Repeat",
     "repeatInterval": "R-Interval",
-    "refresh": "Refresh"
+    "refresh": "Refresh",
+    "saveMessage": "Batch saved successfully!"
   },
   "error": {
     "number": "Only valid numbers are allowed",
@@ -203,7 +208,8 @@
     "elementFinder": "Element Finder",
     "value": "Value",
     "repeat": "Repeat",
-    "repeatInterval": "R-Interval"
+    "repeatInterval": "R-Interval",
+    "saveMessage": "Action saved successfully!"
   },
   "popover": {
     "valueExtractor": {
@@ -225,6 +231,7 @@
     "clear": "Clear",
     "close": "Close",
     "download": "Download",
+    "disabled":"Disabled",
     "sec": "sec",
     "no": "No",
     "yes": "Yes",

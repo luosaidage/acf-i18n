@@ -111,7 +111,8 @@
       "windowHint": "<b>Window</b> (défaut) Le navigateur charge l'extension une fois que tout son contenu est chargé",
       "document": "Document",
       "hotkey": "Gamper",
-      "documentHint": "<b>Document</b> Le navigateur charge l'extension avant que les scripts et les images soient chargés (plus rapides) (dangereux)"
+      "documentHint": "<b>Document</b> Le navigateur charge l'extension avant que les scripts et les images soient chargés (plus rapides) (dangereux)",
+      "saveMessage": "Config enréglage enregistré avec succès !"
     },
     "reorder": {
       "title": "Réorganiser Configuration",
@@ -134,7 +135,8 @@
         "stop": "Arrêter",
         "skip": "Passer non trouvé",
         "refresh": "Rafraîchir"
-      }
+      },
+      "saveMessage": "Action enréglage enregistré avec succès !"
     },
     "ads": {
       "title": "S'il vous plaît permettre aux annonces sur notre site",
@@ -154,7 +156,8 @@
         "stop": "Arrêter",
         "skip": "Passer non trouvé",
         "refresh": "Rafraîchir"
-      }
+      },
+      "saveMessage": "Addon enregistré avec succès !"
     }
   },
   "configuration": {
@@ -171,13 +174,15 @@
     "url": "URL",
     "name": "Nom",
     "initWait": "Attendre",
-    "startTime": "Heure de début"
+    "startTime": "Heure de début",
+    "saveMessage": "Configuration enregistré avec succès !"
   },
   "batch": {
     "title": "Grouper",
     "repeat": "Répéter",
     "repeatInterval": "R-intervalle",
-    "refresh": "Rafraîchir"
+    "refresh": "Rafraîchir",
+    "saveMessage": "Batch enregistré avec succès !"
   },
   "error": {
     "number": "Seuls les nombres valides sont autorisés",
@@ -203,7 +208,8 @@
     "elementFinder": "Élévateur",
     "value": "Valeur",
     "repeat": "Répéter",
-    "repeatInterval": "R-intervalle"
+    "repeatInterval": "R-intervalle",
+    "saveMessage": "Action enregistré avec succès !"
   },
   "popover": {
     "valueExtractor": {
@@ -225,6 +231,7 @@
     "clear": "Dégager",
     "close": "proche",
     "download": "Télécharger",
+    "disabled":"Désactivé",
     "sec": "seconde",
     "no": "Non",
     "yes": "Oui",
