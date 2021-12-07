@@ -180,7 +180,7 @@
     "refresh": "Rafraîchir"
   },
   "error": {
-    "repeat": "Seuls les nombres valides sont autorisés",
+    "number": "Seuls les nombres valides sont autorisés",
     "interval": "Seuls les nombres valides sont autorisés",
     "url": "URL est requis",
     "initWait": "Seuls les nombres valides sont autorisés",

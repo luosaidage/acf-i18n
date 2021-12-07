@@ -180,7 +180,7 @@
     "refresh": "Refresh"
   },
   "error": {
-    "repeat": "Only valid numbers are allowed",
+    "number": "Only valid numbers are allowed",
     "interval": "Only valid numbers are allowed",
     "url": "URL is required",
     "initWait": "Only valid numbers are allowed",
