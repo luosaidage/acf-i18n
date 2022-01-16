@@ -20,9 +20,10 @@
     "chat": "채팅",
     "privacy": "은둔",
     "social": "사회의",
-    "discord": "불화",
-    "twitter": "트위터",
-    "github": "github."
+    "instagram": "Instagram",
+    "discord": "Discord",
+    "twitter": "Twitter",
+    "github": "Github"
   },
   "toast": {
     "configuration": {

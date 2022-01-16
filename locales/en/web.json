@@ -21,6 +21,7 @@
     "privacy": "Privacy",
     "social": "Social",
     "discord": "Discord",
+    "instagram": "Instagram",
     "twitter": "Twitter",
     "github": "Github"
   },
@@ -74,7 +75,7 @@
       "title": "Global Settings",
       "checkIFrames": "Check IFrames",
       "checkIFramesHint": "This checks element within iFrames",
-      "advance":"Advance",
+      "advance": "Advance",
       "advanceHint": "Enable advance mode for more features",
       "notification": {
         "title": "Show Notification",
@@ -231,7 +232,7 @@
     "clear": "Clear",
     "close": "Close",
     "download": "Download",
-    "disabled":"Disabled",
+    "disabled": "Disabled",
     "sec": "sec",
     "no": "No",
     "yes": "Yes",
