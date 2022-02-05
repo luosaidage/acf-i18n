@@ -116,7 +116,7 @@
       "saveMessage": "Config enréglage enregistré avec succès !"
     },
     "reorder": {
-      "title": "Réorganiser Configuration",
+      "title": "Réorganiser Configuration's",
       "hint": "Veuillez enregistrer toutes les configurations avant la réorganisation"
     },
     "extensionNotFound": {
@@ -167,7 +167,9 @@
     "exportAll": "Exporter tout Configuration",
     "importAll": "Importer tout Configuration",
     "remove": "Supprimer Configuration",
-    "reorder": "Réorganiser Configuration",
+    "duplicate": "Dupliquer Configuration",
+    "reorder": "Réorganiser Configuration's",
+    "removeConfigs": "Supprimer Configuration's",
     "settings": "Paramètres de configuration",
     "enable": "Permettre",
     "export": "Exportation Configuration",

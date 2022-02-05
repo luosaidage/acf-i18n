@@ -116,7 +116,7 @@
       "saveMessage": "Config Setting saved successfully!"
     },
     "reorder": {
-      "title": "Reorder Configuration",
+      "title": "Reorder Configuration's",
       "hint": "Please save all configurations before reordering"
     },
     "extensionNotFound": {
@@ -167,7 +167,9 @@
     "exportAll": "Export All Configuration",
     "importAll": "Import All Configuration",
     "remove": "Remove Configuration",
-    "reorder": "Reorder Configuration",
+    "duplicate": "Duplicate Configuration",
+    "reorder": "Reorder Configuration's",
+    "removeConfigs": "Remove Configuration's",
     "settings": "Config Settings",
     "enable": "Enable",
     "export": "Export Configuration",
