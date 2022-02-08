@@ -36,10 +36,10 @@
         "body": "{{name}} removed successfully"
       },
       "exportAll": {
-        "header": "Export All"
+        "header": "Bulk Export"
       },
       "importAll": {
-        "header": "Import All"
+        "header": "Bulk Import"
       },
       "importError": {
         "header": "Import Error"
@@ -164,12 +164,12 @@
   "configuration": {
     "title": "Configuration",
     "add": "Add Configuration",
-    "exportAll": "Export All Configuration",
-    "importAll": "Import All Configuration",
+    "exportAll": "Bulk Export Configuration",
+    "importAll": "Bulk Import Configuration",
     "remove": "Remove Configuration",
     "duplicate": "Duplicate Configuration",
     "reorder": "Reorder Configuration's",
-    "removeConfigs": "Remove Configuration's",
+    "removeConfigs": "Bulk Remove Configuration",
     "settings": "Config Settings",
     "enable": "Enable",
     "export": "Export Configuration",

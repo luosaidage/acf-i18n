@@ -36,10 +36,10 @@
         "body": "{{name}} enlevé avec succès"
       },
       "exportAll": {
-        "header": "Exporter tout"
+        "header": "Exportation en masse"
       },
       "importAll": {
-        "header": "Importer tout"
+        "header": "Importation en masse"
       },
       "importError": {
         "header": "Erreur d'importation"
@@ -164,12 +164,12 @@
   "configuration": {
     "title": "Configuration",
     "add": "Ajouter Configuration",
-    "exportAll": "Exporter tout Configuration",
-    "importAll": "Importer tout Configuration",
+    "exportAll": "Configuration de l'exportation en masse",
+    "importAll": "Configuration de l'importation en bloc",
     "remove": "Supprimer Configuration",
     "duplicate": "Dupliquer Configuration",
     "reorder": "Réorganiser Configuration's",
-    "removeConfigs": "Supprimer Configuration's",
+    "removeConfigs": "Configuration de suppression en bloc",
     "settings": "Paramètres de configuration",
     "enable": "Permettre",
     "export": "Exportation Configuration",

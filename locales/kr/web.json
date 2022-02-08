@@ -36,10 +36,10 @@
         "body": "{{name}} 성공적으로 제거되었습니다"
       },
       "exportAll": {
-        "header": "모두 수출"
+        "header": "대량 내보내기"
       },
       "importAll": {
-        "header": "모두 가져 오기"
+        "header": "대량 가져오기"
       },
       "importError": {
         "header": "가져 오기 오류"
@@ -164,12 +164,12 @@
   "configuration": {
     "title": "구성",
     "add": "구성을 추가하십시오",
-    "exportAll": "모든 구성을 내보내십시오",
-    "importAll": "모든 구성 가져 오기",
+    "exportAll": "대량 내보내기 구성",
+    "importAll": "대량 가져오기 구성",
     "remove": "구성을 제거하십시오",
     "duplicate": "복제하다 제거하십시오",
     "reorder": "구성 재정렬",
-    "removeConfigs": "구성 제거",
+    "removeConfigs": "대량 제거 구성",
     "settings": "구성 설정",
     "enable": "할 수있게하다",
     "export": "수출 구성",
