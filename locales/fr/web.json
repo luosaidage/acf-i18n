@@ -139,6 +139,15 @@
       },
       "saveMessage": "Action enréglage enregistré avec succès !"
     },
+    "actionCondition": {
+      "action": "Action",
+      "status": "Status",
+      "title": "Action État",
+      "info": "La condition d'action est utilisée pour ajouter une condition liée à l'état de l'action précédente",
+      "saveMessage": "Condition d'action enregistrée avec succès !",
+      "skip": "Skip",
+      "proceed": "Proceed"
+    },
     "ads": {
       "title": "S'il vous plaît permettre aux annonces sur notre site",
       "subTitle": "Laquelle de ces extensions avez-vous?"

@@ -139,6 +139,15 @@
       },
       "saveMessage": "Action 환경 저장 완료!"
     },
+    "actionCondition": {
+      "action": "동작",
+      "status": "상태",
+      "title": "동작 조건",
+      "info": "동작 조건은 이전 동작 상태와 관련된 조건을 추가하는 데 사용됩니다.",
+      "saveMessage": "작업 조건이 성공적으로 저장되었습니다!",
+      "skip": "건너 뛰다",
+      "proceed": "진행하다"
+    },
     "ads": {
       "title": "우리 사이트에서 광고를 허용하십시오",
       "subTitle": "다음 중 어떤 확장 프로그램이 있습니까?"
