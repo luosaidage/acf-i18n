@@ -164,7 +164,7 @@
         "hint": "* Below are action which can be performed if recheck is not matched by extension after recheck",
         "interval": "Recheck Interval",
         "stop": "Stop",
-        "skip": "Skip Not Found",
+        "skip": "Skip Action",
         "refresh": "Refresh"
       },
       "saveMessage": "Addon saved successfully!"
