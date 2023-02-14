@@ -6,7 +6,15 @@
     },
     "login": "Login",
     "logout": "Logout",
-    "settings": "Global Settings"
+    "settings": "Global Settings",
+    "backup": {
+      "now": "Backup Now",
+      "auto-backup":"Auto Backup",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "off": "Off"
+    }
   },
   "footer": {
     "resources": "Resources",
