@@ -8,8 +8,9 @@
     "logout": "Logout",
     "settings": "Global Settings",
     "backup": {
+      "backup": "Backup",
       "now": "Backup Now",
-      "auto-backup":"Auto Backup",
+      "auto-backup": "Auto Backup",
       "daily": "Daily",
       "weekly": "Weekly",
       "monthly": "Monthly",
