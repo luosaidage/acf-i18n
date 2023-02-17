@@ -4,6 +4,7 @@
       "light": "Switch to the light theme",
       "dark": "Switch to the dark theme"
     },
+    "google-group":"Google Group",
     "login": "Login",
     "logout": "Logout",
     "settings": "Global Settings",
