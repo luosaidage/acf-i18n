@@ -8,7 +8,9 @@
     "logout": "Logout",
     "settings": "Global Settings",
     "backup": {
-      "backup": "Backup",
+      "last-backup":"Last Backup:",
+      "backup": "Backup to Cloud",
+      "restore": "Restore from Cloud",
       "now": "Backup Now",
       "auto-backup": "Auto Backup",
       "daily": "Daily",
@@ -70,6 +72,12 @@
       "remove": {
         "title": "Remove Configuration",
         "message": "Are you sure to remove {{name}} Configuration?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Restore Configurations from cloud",
+        "message": "Are you sure to restore configurations from cloud. It will replace all your configurations and this process is not reversible."
       }
     },
     "action": {
