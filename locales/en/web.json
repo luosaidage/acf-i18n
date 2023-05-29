@@ -165,6 +165,7 @@
       "info": "Action condition are used to add condition with relates to previous action status",
       "saveMessage": "Action Condition saved successfully!",
       "skip": "Skip",
+      "goto": "Goto",
       "proceed": "Proceed"
     },
     "ads": {
